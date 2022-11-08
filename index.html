@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <HTML>
  <HEAD>
@@ -21,11 +22,22 @@
 
 }
 
+@media (min-width: 400px) and (max-width: 800px) {
 audio{
   position: absolute;
     top: 0%;
     transform: translateY(6%);
     width: 100%;
+}
+}
+
+@media (min-width: 900px) and (max-width: 2000px) {
+audio{
+  position: absolute;
+    top: -20%;
+    transform: translateY(6%);
+    width: 100%;
+}
 }
 
 .box {
@@ -328,7 +340,7 @@ var ParticlePool = (function() {
   }, 10);
 })(document.getElementById('pinkboard'));
   </script>
-  <iframe height="0" width="0" src="kyvongsai.mp4" frameborder="0"></iframe><br>
+  <iframe height="0" width="0" src="kyvongsai.mp4" frameborder="0"></iframe>
  </BODY>
- <audio controls autoplay loop src="kyvongsai.mp4" title="auto/mp4"></audio><br><br>
+ <audio controls autoplay loop src="kyvongsai.mp4" title="auto/mp4"></audio>
 </HTML>
